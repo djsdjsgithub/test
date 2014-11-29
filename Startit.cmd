@@ -1,5 +1,5 @@
 Echo Getting Started...
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" & SETX PATH "%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" & SETX PATH "%PATH%;%ALLUSERSPROFILE%\chocolatey\bin" /M & SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
 Echo Chocolately Installed, Now Installing BoxStarter
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "choco install BoxStarter"
