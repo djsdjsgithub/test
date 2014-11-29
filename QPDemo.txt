@@ -10,5 +10,5 @@ cinst install PowerShell
 cinst install vcredist2010
 cinst windbg
 cinst install bginfo
-choco install procmon
-choco install procexp
+cinst procmon
+cinst procexp
