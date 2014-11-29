@@ -1,4 +1,4 @@
-
+Disable-InternetExplorerESC
 Update-ExecutionPolicy Unrestricted
 Enable-RemoteDesktop
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
