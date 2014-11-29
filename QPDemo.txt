@@ -5,9 +5,9 @@ Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFile
 
 Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\WindowsPowerShell\v1.0\PowerShell.exe"
 
-cinst install PowerShell
+cinst PowerShell
 
-cinst install vcredist2010
+cinst vcredist2010
 cinst windbg
 cinst install bginfo
 cinst procmon
