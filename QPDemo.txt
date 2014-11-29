@@ -9,6 +9,6 @@ cinst PowerShell
 
 cinst vcredist2010
 cinst windbg
-cinst install bginfo
+cinst bginfo
 cinst procmon
 cinst procexp
