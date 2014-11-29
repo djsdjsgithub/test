@@ -12,3 +12,4 @@ cinst windbg
 cinst bginfo
 cinst procmon
 cinst procexp
+cinst DotNet4.5
