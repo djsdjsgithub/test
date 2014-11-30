@@ -9,6 +9,7 @@ cinst PowerShell
 
 cinst vcredist2010
 cinst windbg
+cinst insted
 cinst bginfo
 cinst procmon
 cinst procexp
